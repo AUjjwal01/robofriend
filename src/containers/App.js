@@ -31,7 +31,8 @@ onSearch=(event)=>{
         return robot.name.toLowerCase().includes(searchField.toLowerCase())
     })
     if(robots.length===0){
-        return<h2>Loading....</h2>
+        return<h2>Oops you are not connected to the internet.
+         <img src=""></h2>
     }
      
       
